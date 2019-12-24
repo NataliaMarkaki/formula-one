@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableRow should not render as an odd row 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  border-top: 1px solid #dbe1e4;
+}
+
+.c1 {
+  padding: 0.75em 0.75em 0.5em 0px;
+  margin-left: 0px;
+  width: 34%;
+  vertical-align: top;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      Alexander
+    </div>
+    <div
+      class="c1"
+    >
+      23
+    </div>
+    <div
+      class="c1"
+    >
+      Thai
+    </div>
+    <div
+      class="c1"
+    >
+      1996-03-23
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TableRow should render as an odd row 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  border-top: 1px solid #dbe1e4;
+  background-color: #f6f8f9;
+}
+
+.c1 {
+  padding: 0.75em 0.75em 0.5em 0px;
+  margin-left: 0px;
+  width: 34%;
+  vertical-align: top;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      Alexander
+    </div>
+    <div
+      class="c1"
+    >
+      23
+    </div>
+    <div
+      class="c1"
+    >
+      Thai
+    </div>
+    <div
+      class="c1"
+    >
+      1996-03-23
+    </div>
+  </div>
+</div>
+`;

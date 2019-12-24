@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should render drivers table 1`] = `
+.c0 {
+  margin: 20px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: transparent;
+  color: #323232;
+  box-shadow: 0 0 2px #c9d3d7;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div>
+      {"name":"Alexander Albon","permanentNumber":"23","nationality":"Thai","DOB":"1996-03-23","isOdd":true}
+    </div>
+  </div>
+</div>
+`;
